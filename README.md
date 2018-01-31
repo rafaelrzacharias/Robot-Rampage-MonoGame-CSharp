@@ -10,8 +10,8 @@ To try the game, please find the executable file in Robot Rampage MonoGame CShar
 
 NOTES:
 - This is a top-down 2D tank shooter.
-- The most interesting feature on this project is the enemy AI. It was implemented a pathfinding with A* to give enemiy tanks a way to pursue the player throughout the map and also avoid collisions with walls.
-- The other prominent feature is the Camera2D that was implemented. This game has a world that is larger than the screen. Players can navigate to the edges of the screen and a camera system will autimatically pan and follow the player.
+- The most interesting feature on this project is the enemy AI. It was implemented a pathfinding with A* to give enemy tanks a way to pursue the player throughout the map and also avoid collisions with walls.
+- Another great feature is the Camera2D that was implemented. This game has a world that is larger than the screen. Players can navigate to the edges of the screen and a camera system will autimatically pan and follow the player.
 - A TileMap was implemented. This offers the ability to create large worlds efficiently, while keeping the memory footprint small. The implications of this on level design and world creation cannot be understated.
 - Two axis where used independently! Players use the keyboard (WASD keys) or the gamePad (left thumbstick) to move the tank around and cthe keyboard (numpad 1-9) or the gamePad (right thumbstick) to aim and fire with the tank's turret.
 - It expands on the particle system created for the Asteroid Assault project, because now more effects can be created and also reused.
