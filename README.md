@@ -18,4 +18,4 @@ NOTES:
 - Players have the ability to use multiple tank weapons. This creates new gameplay possibilities, causes a different feel when using each weapon and also each one has a different damage and behavior.
 - A per-tile-collision was implemented. Players and enemies collide with tiles and react accordingly.
 - A GoalManager was implemented. The player has an objective: to find and destroy all ComputerTerminals that are "creating" the new enemy tanks to chase the player. When all terminals are destroyed, the player proceeds to the next level.
-- Simple game progression was implemented, as players beat each new wave, the next one comes with more ComputerTerminals that requires the player to disable them, each terminal spawning more enemies.
+- Simple game progression was implemented. As players beat each new wave, the next one comes with more ComputerTerminals that requires the player to disable them, each terminal spawning more enemies.
